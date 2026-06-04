@@ -1,8 +1,0 @@
-- Device supply 12V
-- 4 separate channel 
-  	Output 4 x 2,5A @ 12V per channel 
-	MAX outut power 120W
-- Real time clock
-- Overheating protection
-- User-friendly interface
-- Low power consumption
