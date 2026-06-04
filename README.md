@@ -4,6 +4,20 @@ Firmware for a PIC18F microcontroller written in **PicBASIC Pro**, designed to s
 
 ---
 
+## 📦 Versions
+
+This project has gone through three hardware and firmware revisions, each improving on the previous design.
+
+| Version | Firmware | PCB Tool | Notes |
+|---|---|---|---|
+| v1.0 | Initial release | Spring Layout 6.0 | First prototype, basic day/night cycle |
+| v2.0 | Extended relay scheduling | Spring Layout 6.0 | Added dual relay timers, improved menu |
+| v3.0 | Current (`FW:3.0`) | Eagle PCB | Full feature set, temperature protection, maintenance mode |
+
+PCB design files are included in the `/pcb` folder. Versions 1 and 2 were designed in **Spring Layout 6.0** (`.spl` files), while version 3 was redesigned from scratch in **Eagle PCB** (`.sch` / `.brd` files).
+
+---
+
 ## ✨ Features
 
 - **Automatic sunrise/sunset simulation** — gradually fades LED strips up and down over a configurable time window, mimicking natural daylight
